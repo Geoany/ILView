@@ -529,6 +529,12 @@ using ILNumerics.Drawing.Plotting;";
                     };
                     panel.Panel.BeginRenderFrame -= updateBallsRenderFrame; 
                 };
+                balls.Disposing += (s, arg) => {
+                    if (m_cleanUpExample != null) {
+                        m_cleanUpExample();
+                        m_cleanUpExample = null;
+                    }
+                };
                 #endregion
 
                 panel.Panel.Scene = scene; 
