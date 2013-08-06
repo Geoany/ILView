@@ -79,15 +79,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Mono.CSharp">
+      <HintPath>..\bin\Mono.CSharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="ILNumerics">
-      <HintPath>ILNumerics.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="SharedControls\IILCompletionEntry.cs" />
@@ -156,12 +156,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FormExtended\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\mcs\class\Mono.CSharp\Mono.CSharp.csproj">
-      <Project>{817ce046-07e8-409d-84bf-a6ea4f2879de}</Project>
-      <Name>Mono.CSharp</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="201308_ilnum_button_download_braun_small.png" />
