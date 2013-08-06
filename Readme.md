@@ -1,11 +1,12 @@
-## ILView 
+# ILView 
 
 Lightweight 3D Viewer and Interactive REPL for ILNumerics
 
 ## Overview
 
-This is the official repository for ILView - an interactive viewer for 3D scenes and plottings created with ILNumerics. This repository targets 
-potential developers for ILView. If you want to try and use official builds of ILView only, go to <http://ilnumerics.net>.  
+This is the official repository for ILView - an interactive viewer for 3D scenes and plottings created with [ILNumerics](http://ilnumerics.net). This repository targets 
+potential developers for ILView. If you want to try out ILView directly, fetch it from here: <http://ilnumerics.net/ILView_i18fb66.zip>. On Windows, you may start the 
+exe directly out of the zip package. On Linux, you may have to install monodevelop, extract the package and start ILView via: `mono ILView_i18fb66.exe`.  
 
 ILView allows the visualization of arbitrary 3D scenes in a small and lightweight .NET application. Scenes can be fetched 
 from arbitrary URIs, provided as ILC# (permalinks from the official ILNumerics project site) or interactively defined. 
@@ -68,7 +69,7 @@ ILView to crash at runtime then! In a future version, ILView should try to load 
 
 ILView is provided under the MIT/X11 license.  
 
-## Getting Started 
+# Getting Started 
 
 ILView is a simple application which consists out of several windows. At application startup, a console is started (src/Program.cs)
  which starts the main application window (src/FormSimple/ILMainFormSimple.cs). The main window contains a single ILPanel and some toolbar 
@@ -77,7 +78,7 @@ A dropdown allows to fetch further preconfigured examples from the ILNumerics we
 to allow to export the current state of the scene (including current camera settings) as SVG or PNG. Another toolbar button allows to toogle 
 the visibility of the C# Interactive Console REPL. 
  
-# C# REPL Overview
+## C# REPL Overview
 
 The C# Interactive Console (REPL) allows for the evaluation of arbitrary C# expressions on the fly. This means, in difference to writing 
 regular C# programs - the REPL accepts single valid expressions without the need to wrap them in a full class context. The 
@@ -95,7 +96,7 @@ returned and displayed on the command line as text output.
     0,57042    0,73974    0,13721    0,82855 
     0,47411    0,12583    0,40773    0,61560 
 	    
-# REPL Handling 
+## REPL Handling 
 
 The evaluation is triggered when the `Enter` key is pressed. Multiple lines are spanned by pressing `Space` + `Enter` together. The `Up` key 
 iteratively steps through the entries in the list of earlier expressions history. A (by now yet limited) set of code completions is 
