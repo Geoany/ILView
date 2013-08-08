@@ -276,8 +276,12 @@ Type 'help' for instructions!
             // handle backspace 
             if (e.KeyCode == Keys.Back) { // || e.KeyCode == Keys.Delete)
                 e.Handled = !handleBackKey();
-				e.SuppressKeyPress = e.Handled; 
+				e.SuppressKeyPress = e.Handled;
+                HideCompletions(); 
                 return; 
+            }
+            if (e.KeyCode == Keys.Escape) {
+                HideCompletions(); 
             }
             // handle Shift + Enter (multiple command lines 
             if (e.KeyCode == Keys.Enter) {
