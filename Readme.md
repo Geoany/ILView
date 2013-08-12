@@ -81,13 +81,13 @@ the visibility of the C# Interactive Console REPL.
 ## C# REPL Overview
 
 The C# Interactive Console (REPL) allows for the evaluation of arbitrary C# expressions on the fly. This means, in difference to writing 
-regular C# programs - the REPL accepts single valid expressions without the need to wrap them in a full class context. The 
+regular C# programs - the REPL accepts individual valid expressions without the need to wrap them in a full class context. The 
 expressions are entered by the user at the command line, wrapped automatically by the compiler and executed. The result is immediately 
 returned and displayed on the command line as text output. 
 
     > 1 + 3  [Enter]
     4
-	> ILArray<double> A = ILMath.rand(10,12);  [Enter] 
+	> ILArray<double> A = ILMath.rand(5,4);  [Enter] 
 	> A      [Enter]
     <Double> [5,4]
     0,62847    0,51569    0,32339    0,40215 
