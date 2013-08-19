@@ -1,12 +1,15 @@
 # ILView 
 
-Lightweight 3D Viewer and Interactive REPL for ILNumerics
+Interactive REPL and lightweight 3D Viewer for Scientists and Programmers. 
+Watch an introductory video here: [http://www.youtube.com/watch?v=RTfLAdVWReI#at=32](http://www.youtube.com/watch?v=RTfLAdVWReI#at=32)
 
 ## Overview
 
 This is the official repository for ILView - an interactive viewer for 3D scenes and plottings created with [ILNumerics](http://ilnumerics.net). This repository targets 
 potential developers for ILView. If you want to try out ILView directly, fetch it from here: <http://ilnumerics.net/ILView_i18fb66.zip>. On Windows, you may start the 
 exe directly out of the zip package. On Linux, you may have to install monodevelop, extract the package and start ILView via: `mono ILView_i18fb66.exe`.  
+
+
 
 ILView allows the visualization of arbitrary 3D scenes in a small and lightweight .NET application. Scenes can be fetched 
 from arbitrary URIs, provided as ILC# (permalinks from the official ILNumerics project site) or interactively defined. 
