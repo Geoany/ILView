@@ -79,9 +79,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ILNumerics, Version=3.2.2.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="ILNumerics, Version=3.3.2.0, Culture=neutral, PublicKeyToken=e00823afcff9a03a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\ILNumerics.3.2.2.0\lib\ILNumerics.dll</HintPath>
+      <HintPath>..\..\packages\ILNumerics.3.3.2.0\lib\ILNumerics.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CSharp">
       <HintPath>..\bin\Mono.CSharp.dll</HintPath>

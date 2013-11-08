@@ -10,7 +10,6 @@ potential developers for ILView. If you want to try out ILView directly, fetch i
 exe directly out of the zip package. On Linux, you may have to install monodevelop, extract the package and start ILView via: `mono ILView_i18fb66.exe`.  
 
 
-
 ILView allows the visualization of arbitrary 3D scenes in a small and lightweight .NET application. Scenes can be fetched 
 from arbitrary URIs, provided as ILC# (permalinks from the official ILNumerics project site) or interactively defined. 
 

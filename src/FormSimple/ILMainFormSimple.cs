@@ -69,8 +69,8 @@ namespace ILNumerics.ILView {
             toolStripCmbSource.Items.Add("i9481ea");
             toolStripCmbSource.Items.Add("i5a1dc1");
             toolStripCmbSource.Items.Add("i24bd56");
+            toolStripCmbSource.Items.Add("i1a27e2");
             toolStripCmbSource.Items.Add("example");
-
            
             panel1 = new ILPanel();
             Controls.Add(panel1);
